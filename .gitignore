@@ -1,0 +1,36 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+tf_env/
+.python-version
+
+# --------------------
+# ML Models (IMPORTANT)
+# --------------------
+*.keras
+*.h5
+*.ckpt
+*.weights
+models/
+model/
+
+# --------------------
+# Data & Outputs
+# --------------------
+data/
+outputs/
+uploads/
+
+# --------------------
+# Node / Backend
+# --------------------
+
+# --------------------
+# OS junk
+# --------------------

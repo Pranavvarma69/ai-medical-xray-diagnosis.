@@ -63,3 +63,23 @@ model architecture
 •Normalize pixel values to range [0, 1]
 •Output: Softmax probabilities for 3 classes
 
+folder structure:
+frontend/      -> React frontend
+backend/       -> Express backend
+ai_api/        -> FastAPI inference service
+uploads/       -> Uploaded images
+
+running website locally:
+backend:-
+cd backend
+npm install
+node server.js
+
+frontend:-
+cd frontend
+npm install
+npm run dev
+
+api:-
+uvicorn app:app --host 0.0.0.0 --port 8000
+
